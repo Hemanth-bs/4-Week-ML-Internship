@@ -1,0 +1,21 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (scikit-learn built-in)",
+  "train_rows": 455,
+  "test_rows": 114,
+  "accuracy": 0.9824561403508771,
+  "precision": 0.9861111111111112,
+  "recall": 0.9861111111111112,
+  "f1": 0.9861111111111112,
+  "roc_auc": 0.9953703703703703,
+  "artifact": "model.joblib",
+  "sample_input_first_5_features": [
+    19.55,
+    28.77,
+    133.6,
+    1207.0,
+    0.0926
+  ],
+  "sample_prediction_class_index": 0,
+  "sample_prediction_class_name": "malignant",
+  "sample_probability_class_1": 5.8882418607059194e-08
+}

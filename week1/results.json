@@ -1,0 +1,63 @@
+{
+  "dataset": "scikit-learn Wisconsin Diagnostic Breast Cancer dataset",
+  "rows": 569,
+  "original_numeric_features": 30,
+  "features_after_encoding": 33,
+  "missing_values_injected": 48,
+  "missing_values_after_cleaning": 0,
+  "target_counts": {
+    "benign": 357,
+    "malignant": 212
+  },
+  "selected_top_10_features": [
+    "mean radius",
+    "mean perimeter",
+    "mean area",
+    "mean concavity",
+    "mean concave points",
+    "worst radius",
+    "worst perimeter",
+    "worst area",
+    "worst concavity",
+    "worst concave points"
+  ],
+  "scaled_feature_mean_abs_max": 8.366671932500301e-16,
+  "scaled_feature_std_mean": 1.0,
+  "sample_rows": [
+    {
+      "mean radius": 17.99,
+      "mean texture": 10.38,
+      "mean area": 1001.0,
+      "diagnosis": "malignant",
+      "radius_group": "medium"
+    },
+    {
+      "mean radius": 20.57,
+      "mean texture": 17.77,
+      "mean area": 1326.0,
+      "diagnosis": "malignant",
+      "radius_group": "large"
+    },
+    {
+      "mean radius": 19.69,
+      "mean texture": 21.25,
+      "mean area": 1203.0,
+      "diagnosis": "malignant",
+      "radius_group": "large"
+    },
+    {
+      "mean radius": 11.42,
+      "mean texture": 20.38,
+      "mean area": 386.1,
+      "diagnosis": "malignant",
+      "radius_group": "small"
+    },
+    {
+      "mean radius": 20.29,
+      "mean texture": 14.34,
+      "mean area": 1297.0,
+      "diagnosis": "malignant",
+      "radius_group": "large"
+    }
+  ]
+}
